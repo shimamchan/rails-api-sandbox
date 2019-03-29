@@ -13,7 +13,7 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+Dir[Rails.root.join('spec/support/request_spec_helper.rb')].each { |f| require f }
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
