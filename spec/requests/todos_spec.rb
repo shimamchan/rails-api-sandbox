@@ -35,6 +35,7 @@ RSpec.describe 'Todos API', type: :request do
         expect(json['message'])
           .to match(/Validation failed: Title can't be blank/)
       end
+    end
   end
 
   describe 'PUT /todos/:id' do
