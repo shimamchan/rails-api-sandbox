@@ -20,7 +20,7 @@ RSpec.describe 'Items API' do
 
   # Test suite for PUT /todos/:todo_id/items
   describe 'POST /todos/:todo_id/items' do
-    let(:valid_attributes) { { name: 'Visit Narnia', done: false },to_json }
+    let(:valid_attributes) { { name: 'Visit Narnia', done: false }.to_json }
 
     context 'when request attributes are valid' do
       before do
